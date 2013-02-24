@@ -17,6 +17,14 @@ PRODUCT_PACKAGES += \
     Torch \
     UnicornPorn
 
+# Extra Packages
+PRODUCT_PACKAGES += \
+    GooManager \
+    LockClock \
+    TricksterMOD \
+    XposedAppSettings \
+    XposedInstaller
+    
 # Use prebuilt su until fixed when built
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/xbin/su:system/xbin/su
