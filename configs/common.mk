@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GooManager \
     LockClock \
-    TricksterMOD \
     XposedAppSettings \
     XposedInstaller
     
