@@ -21,8 +21,8 @@ PRODUCT_PACKAGES += \
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-    DashClock \
-	GooManager \
+    GooManager \
+    LockClock \
     XposedAppSettings \
     XposedInstaller
     
