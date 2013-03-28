@@ -17,11 +17,11 @@
 -->
 <resources>
         <!-- The fixed width of traditional toggles -->
-    <dimen name="toggle_traditional_width">60dp</dimen>
+    <dimen name="toggle_traditional_width">50dp</dimen>
 
      <!-- The fixed height of traditional toggles -->
-    <dimen name="toggle_traditional_height">60dp</dimen>
+    <dimen name="toggle_traditional_height">50dp</dimen>
 
     <!-- The fixed height of traditional toggles -->
-    <dimen name="toggle_traditional_padding">2dp</dimen>
+    <dimen name="toggle_traditional_padding">4dp</dimen>
 </resources>
