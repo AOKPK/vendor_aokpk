@@ -18,9 +18,9 @@ else
       ro.goo.developerid=kecinzer \
       ro.goo.rom=aokpkdaily \
       ro.goo.version=$(DATETIME) \
-		ro.aokp.version=aokpk_$(DEV)_daily_$(DATETIME)
+      ro.aokp.version=aokpk_$(DEV)_daily_$(DATETIME)
 endif
 
 # Camera shutter sound property
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.sys.camera-sound=1
+    persist.sys.camera-sound=1
