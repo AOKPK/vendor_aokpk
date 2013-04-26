@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     mGerrit \
     Microbes \
+    PermissionsManager \
     ROMControl \
     Superuser \
     su \
@@ -37,6 +38,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0 \
     persist.sys.root_access=3
+
+# Installer
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
+    vendor/aokp/prebuilt/common/etc/persist.conf:system/etc/persist.conf
 
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
