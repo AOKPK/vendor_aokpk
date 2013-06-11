@@ -13,6 +13,8 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/i9100g.mk \
     $(LOCAL_DIR)/i9300.mk \
     $(LOCAL_DIR)/jfltetmo.mk \
+    $(LOCAL_DIR)/jflteusc.mk \
+    $(LOCAL_DIR)/jfltevzw.mk \
     $(LOCAL_DIR)/l900.mk \
     $(LOCAL_DIR)/m7att.mk \
     $(LOCAL_DIR)/m7spr.mk \
