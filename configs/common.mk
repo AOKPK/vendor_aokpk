@@ -20,13 +20,6 @@ PRODUCT_PACKAGES += \
     Torch \
     UnicornPorn
 
-# Extra Packages
-PRODUCT_PACKAGES += \
-    GooManager \
-    LockClock \
-    XposedAppSettings \
-    XposedInstaller
-    
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
