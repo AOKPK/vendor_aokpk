@@ -9,14 +9,14 @@ ifneq ($(AOKPK_STABLE),)
     ro.goo.developerid=kecinzer \
     ro.goo.rom=aokpk \
     ro.goo.version=$(AOKPK_STABLE) \
-    ro.aokp.version=aokpk_$(AOKP_PRODUCT)_stable_$(AOKPK_STABLE)
+    ro.aokp.version=aokpk_$(AOKP_PRODUCT)_$(AOKP_BRANCH)_stable_$(AOKPK_STABLE)
 else
   DATETIME=$(shell date +"%y%m%d%H%M")
   PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=kecinzer \
     ro.goo.rom=aokpkdaily \
     ro.goo.version=$(DATETIME) \
-    ro.aokp.version=aokpk_$(AOKP_PRODUCT)_daily_$(DATETIME)
+    ro.aokp.version=aokpk_$(AOKP_PRODUCT)_$(AOKP_BRANCH)_daily_$(DATETIME)
 endif
 
 # needed for statistics
