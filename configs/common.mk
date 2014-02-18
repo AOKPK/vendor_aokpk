@@ -11,7 +11,6 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver \
     libemoji \
     LatinImeDictionaryPack \
-    mGerrit \
     Microbes \
     ROMControl \
     Stk \
