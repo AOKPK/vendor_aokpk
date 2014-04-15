@@ -10,3 +10,7 @@ PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := yuga
 PRODUCT_MODEL := Xperia Z
 PRODUCT_MANUFACTURER := Sony
+
+# boot animation
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/bootanimation/bootanimation_1080.zip:system/media/bootanimation.zip
