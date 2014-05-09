@@ -80,7 +80,7 @@ PRODUCT_PACKAGES += \
     ntfsfix \
     ntfs-3g
 
-# Stagefright FFMPEG plugin
+# Stagefright FFMPEG plugins
 PRODUCT_PACKAGES += \
     libstagefright_soft_ffmpegadec \
     libstagefright_soft_ffmpegvdec \
