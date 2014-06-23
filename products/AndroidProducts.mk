@@ -7,10 +7,12 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d800.mk \
     $(LOCAL_DIR)/d801.mk \
     $(LOCAL_DIR)/d802.mk \
+    $(LOCAL_DIR)/deb.mk \
     $(LOCAL_DIR)/dogo.mk \
     $(LOCAL_DIR)/e980.mk \
     $(LOCAL_DIR)/evita.mk \
     $(LOCAL_DIR)/find5.mk \
+    $(LOCAL_DIR)/find7.mk \
     $(LOCAL_DIR)/grouper.mk \
     $(LOCAL_DIR)/haida.mk \
     $(LOCAL_DIR)/hallon.mk \
@@ -43,6 +45,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/pollux.mk \
     $(LOCAL_DIR)/pollux_windy.mk \
     $(LOCAL_DIR)/satsuma.mk \
+    $(LOCAL_DIR)/serranoltexx.mk \
     $(LOCAL_DIR)/smultron.mk \
     $(LOCAL_DIR)/solana.mk \
     $(LOCAL_DIR)/spyder.mk \
