@@ -50,6 +50,12 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
 
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/f2fs/format.sh:install/f2fs/format.sh \
+    vendor/aokp/prebuilt/common/bin/f2fs/trigger.sh:install/f2fs/trigger.sh \
+    vendor/aokp/prebuilt/common/bin/f2fs/tools/mkbootimg:install/f2fs/tools/mkbootimg \
+    vendor/aokp/prebuilt/common/bin/f2fs/tools/unpackbootimg:install/f2fs/tools/unpackbootimg
+
 # init.d
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
